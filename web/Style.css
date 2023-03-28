@@ -1,0 +1,51 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 mar. 2023, 19:17:20
+    Author     : Evelyn
+*/
+.body{
+    
+}
+.title{
+    font-family: "Mulish" ,sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.nav_bg{
+    background-color: #7D0211;
+}
+.contenedor{
+    width: 60rem;
+    margin: 0 auto;
+}
+.NVC  {
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.NVC a {
+   
+    color: #FCFCFC;
+    text-decoration: none ;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.NVC a:hover {
+   
+ background-color:#89656B ;
+ color: black;
+}
+
+.cont{
+    color:white;
+    text-align: center;
+    font-family: "Mulish" ,sans-serif;
+    font-size: 1.5rem;
+}
