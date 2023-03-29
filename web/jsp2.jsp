@@ -58,7 +58,7 @@
             }
             id = request.getParameter( "id" );
             borrar = request.getParameter( "borrar" );
-            if( "Submit".equals( borrar ) )
+            if( "Enviar".equals( borrar ) )
             {
                 lista.remove( Integer.parseInt(id) );
             }
@@ -104,8 +104,8 @@
                 <td><%= datos.getEvidencia()%></td>
                 
                 <td>
-                    <a href="jsp2.jsp?id=<%=i%>&borrar=Submit">Borrar</a> 
-                    <a href="jsp3.jsp?id=<%=i++%>&editar=Submit">Editar</a> 
+                    <a href="jsp2.jsp?id=<%=i%>&borrar=Enviar">Borrar</a> 
+                    <a href="jsp3.jsp?id=<%=i++%>&editar=Enviar">Editar</a> 
                 </td>
             </tr>
             </tbody>

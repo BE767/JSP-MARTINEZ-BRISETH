@@ -7,7 +7,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : Evelyn
 */
 .body{
-    
+    font-family: "Mulish" ,sans-serif;
+    text-align: center;
+    color: white;
 }
 .title{
     font-family: "Mulish" ,sans-serif;
